@@ -45,7 +45,7 @@ spec:
   managementCluster:
     name: main-i-005b4-1f6b92e
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 2
     machineGroupRef:
       kind: VSphereMachineConfig
       name: main-i-005b4-1f6b92e
@@ -99,10 +99,10 @@ metadata:
 spec:
   cloneMode: fullClone
   datastore: /SDDC-Datacenter/datastore/WorkloadDatastore
-  diskGiB: 25
+  diskGiB: 35
   folder: /SDDC-Datacenter/vm
-  memoryMiB: 8192
-  numCPUs: 2
+  memoryMiB: 10196
+  numCPUs: 1
   osFamily: bottlerocket
   resourcePool: /SDDC-Datacenter/host/Cluster-1/Resources/Compute-ResourcePool
   template: /SDDC-Datacenter/vm/Templates/kubernetes-1-29-eks-4-bottlerocket
