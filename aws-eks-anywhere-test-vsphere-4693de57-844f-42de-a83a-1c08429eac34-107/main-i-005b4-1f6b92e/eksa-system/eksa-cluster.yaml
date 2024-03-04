@@ -45,7 +45,7 @@ spec:
   managementCluster:
     name: main-i-005b4-1f6b92e
   workerNodeGroupConfigurations:
-  - count: 3
+  - count: 1
     machineGroupRef:
       kind: VSphereMachineConfig
       name: main-i-005b4-1f6b92e
